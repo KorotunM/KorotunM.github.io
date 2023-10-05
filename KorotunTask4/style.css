@@ -1,0 +1,66 @@
+
+.nav-1 {
+background-color:#d091c1;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.block1, .block2,.block3 {
+    background-color:#b24079; 
+}
+header, .block1, .block2,.block3, footer,.joke 
+{
+    width: 100%;
+}
+.joke{
+    text-decoration: italic;
+    background-color:#b24079; 
+}
+.top-1 {
+    background-color: #9797fd;
+}
+.top-2 {
+    background-color: #FF66CC;
+}
+header {
+    background-color: #c9356d; 
+}
+footer { 
+    background-color: #e8147e;
+}
+@media screen and (min-width: 800px) {
+    .nav-1 {
+        background-color:#d091c1;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+    }
+    .block1, .block2,.block3 {
+        background-color:#b24079; 
+    }
+        
+    .joke{
+        text-decoration: italic;
+        background-color:#b24079; 
+     }
+     .top-1 {
+         background-color: #9797fd;
+     }
+    .top-2 {
+        background-color: #FF66CC;
+    }
+    header {
+        background-color: #c9356d; 
+    }
+    footer { 
+        background-color: #e8147e;
+    }
+    .vue{
+        /* margin: 0 50px 0 700px; */
+        position: absolute;
+        right: 0;
+        top: 6px;
+    }
+}
