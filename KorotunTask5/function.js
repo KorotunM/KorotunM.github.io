@@ -12,12 +12,12 @@ option.set("water4", 38);
 option.set("water5", 42);
 function Totali() {
     event.preventDefault();
-    let cnt = document.getElementById("reqest").value;
-    let m = cnt.match(/^[0-9]+$/);
-    if (m !== null && cnt > 0)
+    let button = document.getElementById("reqest").value;
+    let m = button.match(/^[0-9]+$/);
+    if (m !== null && button > 0)
     {
         let answer = document.getElementById("block").value;
-        let rez = "total cost of water: " + option.get(answer) * cnt;
+        let rez = "total cost of water: " + option.get(answer) * button;
         document.getElementById("product").innerHTML = rez;
     }
     else 
