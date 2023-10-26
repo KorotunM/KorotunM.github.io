@@ -21,11 +21,11 @@ $(function(){
   });
 });
 
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-1.jpg" alt="picture 1"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-2.jpg" alt="picture 2"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-3.jpg" alt="picture 3"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-4.jpg" alt="picture 4"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-5.jpg" alt="picture 5"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-6.jpg" alt="picture 6"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-7.jpg" alt="picture 7"></div>');
-$('.multiple-items').slick('slickAdd','<div><img src="images/image-8.jpg" alt="picture 8"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image1.jpg" alt="picture 1"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image2.jpg" alt="picture 2"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image3.jpg" alt="picture 3"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image4.jpg" alt="picture 4"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image5.jpg" alt="picture 5"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image6.jpg" alt="picture 6"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image7.jpg" alt="picture 7"></div>');
+$('.multiple-items').slick('slickAdd','<div><img src="Images/image8.jpg" alt="picture 8"></div>');
