@@ -16,3 +16,10 @@ footer {
 body{
     background-color: #29d4ee;
 }
+.items{
+    margin: 30px;
+}
+.image{
+    width: 600px;
+    height: 500px;
+}
