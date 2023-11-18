@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="function.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Задание 8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="openPopup">Форма приёма на работу</button>
+  <div id="popup" class="popup">
+    <span class="close">×</span>
+    <h2 class="text">Форма приёма на работу</h2>
+    <div class="text">
+    <form id="feedbackForm">
+      <label for="name">ФИО:</label>
+      <input type="text" id="name" required> </br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" required></br>
+  
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" required></br>
+  
+      <label for="organization">Организация:</label>
+      <input type="text" id="organization" required></br>
+  
+      <label for="message">Сообщение:</label>
+      <textarea id="message" required></textarea></br>
+  
+      <input type="checkbox" id="agreement">
+      <label for="agreement">Согласен с политикой обработки персональных данных</label></br>
+  
+      <input type="submit" value="Отправить">
+    </div>
+    </form>
+    <div id="messageContainer"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+.popup {
+    display: none; 
+    background: #91bbf0;
+    margin: 140px 140px 140px 140px;
+    padding: 10px;
+}
+.close{
+    margin-left: 65vw;
+}
+.text{
+    text-align: center;
+}
+body{
+    background-color: #29d4ee;
+}
+  @media (max-width: 768px) {
+    .popup {
+      width: 90%;
+      max-width: 400px;
+      margin: auto;
+    }
+    .close{
+        margin-left: 50vw;
+    }
+}
