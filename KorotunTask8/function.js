@@ -40,7 +40,7 @@ $(document).ready(function() {
         agreement: agreement
       },
       dataType: "json",
-      success: function(response) {ы
+      success: function(response) {
         $("#name").val("");
         $("#email").val("");
         $("#phone").val("");
